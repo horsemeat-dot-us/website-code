@@ -1,0 +1,37 @@
+* {
+	font-family: cursive;
+}
+.rainbow {
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-size: 100px;
+  text-align: center;
+}
+.center {
+	text-align: center;
+}
+.small {
+	font-size: 10px;
+}
+
+.banner {
+	background-color: yellow;
+}
+/* Pulse class and keyframe animation */
+.pulseit{
+	-webkit-animation: pulse linear .5s infinite;
+	animation: pulse linear .5s infinite;
+}
+@-webkit-keyframes pulse {
+	0% { width:3000px; } 
+	50% { width:4533px; } 
+	100% { width:3000px; }
+}
+@keyframes pulse {
+	0% { width:3000px; } 
+	50% { width:4533px; } 
+	100% { width:3000px; }
+}
